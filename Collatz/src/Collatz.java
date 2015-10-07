@@ -9,10 +9,11 @@ public class Collatz {
 	    	}
 	    
 	    
-	    	else(startzahl=(startzahl*3)+1;}
+	    	else{startzahl=(startzahl*3)+1;
+	    	System.out.print(startzahl+" ");}
 
-	if(startzahl>1){System.out.print(startzahl+", ");}
-	else{System.out.print(startzahl);}
+	
+	    	}
 	}
 
-}
+
